@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1444 343.96">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: GillSansMT-BoldItalic, 'Gill Sans MT';
+        font-size: 241px;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 11px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        font-family: Century, Century;
+        font-size: 193.07px;
+        letter-spacing: .01em;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="743.99" y1="371.91" x2="1412.02" y2="-13.78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c44a86"/>
+      <stop offset=".16" stop-color="#8f5ea5"/>
+      <stop offset=".3" stop-color="#686dbd"/>
+      <stop offset=".41" stop-color="#5076cb"/>
+      <stop offset=".48" stop-color="#487ad1"/>
+      <stop offset=".55" stop-color="#4774c7"/>
+      <stop offset=".66" stop-color="#4466ad"/>
+      <stop offset=".81" stop-color="#404f83"/>
+      <stop offset=".98" stop-color="#3a2f49"/>
+      <stop offset="1" stop-color="#3a2b41"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="14.14" y1="103.7" x2="45.5" y2="135.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f486ff"/>
+      <stop offset=".48" stop-color="#487ad1"/>
+      <stop offset="1" stop-color="#3a2ba1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="89.72" y1="25.68" x2="146.83" y2="82.79" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="13.14" y1="13.14" x2="44.5" y2="44.5" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <line class="cls-2" x1="117" y1="37.57" x2="658" y2="37.57"/>
+  <rect class="cls-5" x="740" y="68.07" width="674" height="229"/>
+  <line class="cls-2" x1="117" y1="321.57" x2="658" y2="321.57"/>
+  <text class="cls-1" transform="translate(102 271.94)"><tspan x="0" y="0">EDIT</tspan></text>
+  <rect class="cls-3" x="712" y="31.07" width="732" height="296"/>
+  <text class="cls-8" transform="translate(765.59 253.87) scale(.92 1)"><tspan x="0" y="0">MAGIC</tspan></text>
+  <g>
+    <path class="cls-6" d="M35.16,93.73l6.33,11.57c.56,1.02,1.4,1.86,2.42,2.42l11.57,6.33c4.22,2.31,4.22,8.37,0,10.68l-11.57,6.33c-1.02.56-1.86,1.4-2.42,2.42l-6.33,11.57c-2.31,4.22-8.37,4.22-10.68,0l-6.33-11.57c-.56-1.02-1.4-1.86-2.42-2.42l-11.57-6.33c-4.22-2.31-4.22-8.37,0-10.68l11.57-6.33c1.02-.56,1.86-1.4,2.42-2.42l6.33-11.57c2.31-4.22,8.37-4.22,10.68,0Z"/>
+    <path class="cls-4" d="M127.3,6.99l10.7,21.3c.94,1.88,2.36,3.43,4.09,4.46l19.56,11.65c7.14,4.25,7.14,15.42,0,19.67l-19.56,11.65c-1.73,1.03-3.15,2.57-4.09,4.46l-10.7,21.3c-3.9,7.77-14.15,7.77-18.06,0l-10.7-21.3c-.94-1.88-2.36-3.43-4.09-4.46l-19.56-11.65c-7.14-4.25-7.14-15.42,0-19.67l19.56-11.65c1.73-1.03,3.15-2.57,4.09-4.46l10.7-21.3c3.9-7.77,14.15-7.77,18.06,0Z"/>
+    <path class="cls-7" d="M34.16,3.17l6.33,11.57c.56,1.02,1.4,1.86,2.42,2.42l11.57,6.33c4.22,2.31,4.22,8.37,0,10.68l-11.57,6.33c-1.02.56-1.86,1.4-2.42,2.42l-6.33,11.57c-2.31,4.22-8.37,4.22-10.68,0l-6.33-11.57c-.56-1.02-1.4-1.86-2.42-2.42l-11.57-6.33c-4.22-2.31-4.22-8.37,0-10.68l11.57-6.33c1.02-.56,1.86-1.4,2.42-2.42l6.33-11.57c2.31-4.22,8.37-4.22,10.68,0Z"/>
+  </g>
+</svg>
