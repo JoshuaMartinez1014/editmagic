@@ -53,7 +53,10 @@ const MobileNav = () => {
                         } p-18 flex whitespace-nowrap text-dark-700`}
                         key={link.route}
                       >
-                        <Link className="sidebar-link cursor-pointer" href={link.route}>
+                        <Link
+                          className="sidebar-link cursor-pointer"
+                          href={link.route}
+                        >
                           <Image
                             src={link.icon}
                             alt="logo"
@@ -71,10 +74,10 @@ const MobileNav = () => {
           </Sheet>
         </SignedIn>
         <SignedOut>
-            <Button asChild className="button bg-purple-gradient bg-cover">
-              <Link href="/sign-in">Login</Link>
-            </Button>
-          </SignedOut>
+          <Button asChild className="button bg-purple-gradient bg-cover">
+            <Link href="/sign-in">Login</Link>
+          </Button>
+        </SignedOut>
       </nav>
     </header>
   );
