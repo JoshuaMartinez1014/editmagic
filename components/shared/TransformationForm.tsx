@@ -181,8 +181,8 @@ const transformationForm = ({
       },
     }));
 
-    return onChangeField(value);
     debounce(() => {}, 1000);
+    return onChangeField(value);
   };
 
   // --- UPDATE CREDIT FEE IF NEEDED ---
