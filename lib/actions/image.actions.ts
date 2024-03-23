@@ -88,11 +88,7 @@ export async function getImageById(imageId: string) {
   }
 }
 
-export async function getAllImages({
-  limit = 9,
-  page = 1,
-  searchQuery = "",
-}: {
+export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
   limit?: number;
   page: number;
   searchQuery?: string;
@@ -107,17 +103,17 @@ export async function getAllImages({
       secure: true,
     })
 
-    let expression = 'folder=editmagic'
+    let expression = 'folder=imaginify';
 
-    if(searchQuery){
+    if (searchQuery) {
       expression += ` AND ${searchQuery}`
     }
 
     const { resources } = await cloudinary.search
-    .expression(expression)
-    .execute();
+      .expression(expression)
+      .execute();
 
-    const resourceIds = resources.map((resource: any) => resource.public_id)
+    const resourceIds = resources.map((resource: any) => resource.public_id);
 
     let query = {};
 
@@ -129,13 +125,13 @@ export async function getAllImages({
       }
     }
 
-    const skipAmount = (Number(page)-1) * limit;
+    const skipAmount = (Number(page) -1) * limit;
 
     const images = await populateUser(Image.find(query))
-    .sort({updatedAt: -1})
-    .skip(skipAmount)
-    .limit(limit);
-
+      .sort({ updatedAt: -1 })
+      .skip(skipAmount)
+      .limit(limit);
+    
     const totalImages = await Image.find(query).countDocuments();
     const savedImages = await Image.find().countDocuments();
 
@@ -144,8 +140,7 @@ export async function getAllImages({
       totalPage: Math.ceil(totalImages / limit),
       savedImages,
     }
-
   } catch (error) {
-    handleError(error);
+    handleError(error)
   }
 }
