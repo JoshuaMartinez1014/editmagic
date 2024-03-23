@@ -200,6 +200,12 @@ const transformationForm = ({
     });
   };
 
+  useEffect(() => {
+    if(image && (type === 'restore' || type === 'removeBackground')){
+      setNewTransformation(transformationType.config)
+    }
+  }, [image, transformationType.config, type])
+
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
