@@ -1,6 +1,8 @@
 import { Schema, model, models } from "mongoose";
+import { Key } from "react";
 
 export interface IImage extends Document {
+  _id: Key | null | undefined;
   title: string;
   transformationType: string;
   publicId: string;
